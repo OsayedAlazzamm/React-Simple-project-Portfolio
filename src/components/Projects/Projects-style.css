@@ -1,0 +1,45 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    scroll-margin-top: 56px
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.8rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.card a {
+    text-decoration: none;
+    color: #0900ff;
+}
+
+.card a:hover {
+    color: #000000;
+}
+
+@media (min-width: 576) {
+    .projects{
+        scroll-margin-top: 80px
+    }
+}
+
+@media (min-width: 265px ) and (max-width: 575.9px) {
+    .projects{
+        scroll-margin-top: 240px
+    }
+}
+
+@media (max-width: 264.9px) {
+    .projects{
+        scroll-margin-top: 280px
+    }
+}
+
