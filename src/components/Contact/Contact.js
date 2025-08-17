@@ -1,5 +1,6 @@
 import { Container, Form, Button } from 'react-bootstrap';
 import "./Contact-style.css"
+
 function ContactForm() {
   return (
 <div className="contact" id="contact">
